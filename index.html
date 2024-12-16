@@ -3,42 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MotelR - Motel Management Made Easy</title>
+    <title>MotelR - Complete Motel Management Solution</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>MotelR</h1>
-        <nav>
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="privacy.html">App Privacy</a></li>
-                <li><a href="support.html">Support</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h2>Welcome to MotelR</h2>
-            <p>Manage your motel effortlessly with our powerful and easy-to-use app.</p>
-        </section>
-        <section id="privacy">
-            <h2>App Privacy</h2>
-            <p>Your privacy is important to us. Learn more about how we protect your data.</p>
-            <a href="privacy.html">Read our Privacy Policy</a>
-        </section>
-        <section id="support">
-            <h2>Support</h2>
-            <p>Need help? Our support team is here to assist you.</p>
-            <a href="mailto:support@motelr.com">Contact Support</a>
-        </section>
-        
-    </main>
-    <footer>
-        <p>&copy; 2024 MotelR. All rights reserved.</p>
-    </footer>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <i class="fas fa-hotel"></i>
+            <span>MotelR</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="Index.html" class="active">Home</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
 
-    
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Your Complete Motel Management Solution</h1>
+            <p>Streamline operations, enhance security, and boost efficiency with our comprehensive management system</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="features" class="features">
+            <h2>Powerful Features for Modern Motel Management</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Smart Booking System</h3>
+                    <p>Efficiently manage check-ins, check-outs, and room assignments with our intuitive booking interface.</p>
+                    <ul class="feature-list">
+                        <li>Easy check-in/check-out process</li>
+                        <li>Real-time room availability</li>
+                        <li>Flexible booking modifications</li>
+                        <li>Guest information management</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Enhanced Security</h3>
+                    <p>Protect your data with our comprehensive security features.</p>
+                    <ul class="feature-list">
+                        <li>PIN protection system</li>
+                        <li>Encrypted local storage</li>
+                        <li>Secure backup & restore</li>
+                        <li>Document protection</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Advanced Analytics</h3>
+                    <p>Make informed decisions with detailed insights and reports.</p>
+                    <ul class="feature-list">
+                        <li>Financial reporting</li>
+                        <li>Occupancy analytics</li>
+                        <li>Revenue tracking</li>
+                        <li>Performance metrics</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Incident Management</h3>
+                    <p>Track and manage incidents effectively.</p>
+                    <ul class="feature-list">
+                        <li>Incident reporting system</li>
+                        <li>Customer history tracking</li>
+                        <li>Resolution management</li>
+                        <li>Security alerts</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-showcase">
+            <h2>Comprehensive Management Tools</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Customer Management</h3>
+                    <ul>
+                        <li>Guest profiles</li>
+                        <li>Document storage</li>
+                        <li>Contact information</li>
+                        <li>Booking history</li>
+                    </ul>
+                </div>
+
+                <div class="showcase-item">
+                    <i class="fas fa-cash-register"></i>
+                    <h3>Payment Processing</h3>
+                    <ul>
+                        <li>Multiple payment methods</li>
+                        <li>Tax management</li>
+                        <li>Receipt generation</li>
+                        <li>Financial tracking</li>
+                    </ul>
+                </div>
+
+                <div class="showcase-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Management</h3>
+                    <ul>
+                        <li>Secure local storage</li>
+                        <li>Automated backups</li>
+                        <li>Data restoration</li>
+                        <li>Export capabilities</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-detail">
+            <div class="detail-grid">
+                <div class="detail-item">
+                    <h3>Room Management</h3>
+                    <ul>
+                        <li>Real-time room status</li>
+                        <li>Occupancy tracking</li>
+                        <li>Maintenance scheduling</li>
+                        <li>Room categorization</li>
+                    </ul>
+                </div>
+
+                <div class="detail-item">
+                    <h3>Financial Tools</h3>
+                    <ul>
+                        <li>Revenue tracking</li>
+                        <li>Tax calculations</li>
+                        <li>Financial reports</li>
+                        <li>Payment history</li>
+                    </ul>
+                </div>
+
+                <div class="detail-item">
+                    <h3>Security Features</h3>
+                    <ul>
+                        <li>Data encryption</li>
+                        <li>Access control</li>
+                        <li>Secure storage</li>
+                        <li>Backup protection</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to Transform Your Motel Management?</h2>
+            <p>Join the growing number of motel owners who trust MotelR for their daily operations</p>
+            <div class="cta-buttons">
+                <a href="#features" class="cta-button">Get Started</a>
+                <a href="support.html" class="cta-button secondary">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MotelR</h3>
+                <p>Making motel management easy and efficient</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: work.nishantjhaveri@gmail.com</p>
+                <p>Phone: 217-859-1242</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MotelR. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
